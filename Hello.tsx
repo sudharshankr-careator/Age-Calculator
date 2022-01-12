@@ -6,6 +6,12 @@ export default function Hello({ name }) {
     b: 2,
     c: 3,
   };
+  let array5=[17,16,3,18];
+array5.filter((va: any)=>{
+  if(va>16){
+    return console.log(va)
+  }
+})
   var fruits="Banana Orange Apple Mango";
  console.log(fruits.split(' ').reverse())
  let a=["guru","reva", "kaju"];
